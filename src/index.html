@@ -3,27 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Generador de excusas</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <header class="borde">
+      <h1>Generador de Excusas</h1>
+    </header>
+    <main class="borde">
+      <div class="Izquierdo borde" id="excusa">
+        <h1>Excusa Generada:</h1>
+        <h1>Mi Perro se comio mi trabajo</h1>
       </div>
-    </div>
+      <div class="Derecho">
+        <h3>¿Por que las excusas a veces son buenas?</h3>
+        <p>
+          Las excusas pueden servir para justificar errores y evitar conflictos
+          momentáneamente, pero a largo plazo limitan nuestro crecimiento
+          personal. Es importante reconocer nuestros errores y asumir la
+          responsabilidad de nuestras acciones para aprender y mejorar. Evitar
+          las excusas fomenta la honestidad y el desarrollo de la autoconfianza.
+          Al enfrentar nuestras fallas, nos volvemos más resilientes y capaces
+          de superar desafíos. Optar por soluciones en lugar de excusas nos
+          permite avanzar y crecer como individuos. Por tanto, la autenticidad y
+          la responsabilidad son clave para un desarrollo personal y profesional
+          saludable.
+        </p>
+        <div class="Generador">
+          <button id="boton">Generar Nueva Excusa</button>
+        </div>
+      </div>
+    </main>
+    <footer class="borde">
+      <p>Creado por Nelson De Abreu <i class="bi bi-pen"></i></p>
+      <p>Contacto nelsondeabreu@gmail.com <i class="bi bi-envelope-at"></i></p>
+      <p>Fecha De Creacion 27/08/2024 <i class="bi bi-calendar"></i></p>
+      <p>Lenguaje JS <i class="bi bi-filetype-js"> </i></p>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
